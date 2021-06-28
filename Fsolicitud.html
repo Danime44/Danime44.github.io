@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Estilos/Fsolicitud.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicios</a>
+					<ul class="submenu">
+						<li><a href="Fsolicitud.html">Solicitar</a></li>
+						<li><a href="Fdevolucion.html">Devolver</a></li>
+						<li><a href="Libros.html">Libros</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <form class="formulario" id="formulario">
+
+        <h3><span style="color: red;">SOLICITANTE</span></h3>
+        
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Nombre:</strong></span></label> 
+                <input type="text" id="nombre" class="formulario__input" required>
+    
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Apellido:</strong></span></label>
+                <input type="text" id="Apellido" class="formulario__input" required>
+    
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Correo:</strong></span></label> 
+                <input type="email" id="Correo" class="formulario__input" required>
+
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Telefono:</strong></span></label> 
+                <input type="tel" id="Telefono" class="formulario__input" required>
+
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Fecha de solicitud:</strong></span></label> 
+                <input type="date" id="Fecha_S" class="formulario__input" required>
+    
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Fecha de devolución:</strong></span></label> 
+                <input type="date" id="Fecha_D" class="formulario__input" required>
+
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Curso:</strong></span></label>
+                <input type="text" id="Curso" class="formulario__input" required>
+    
+            <label for="" class="formulario__label"><span style="color: black;" ><strong>Número de registro:</strong></span></label> 
+                <input type="number" id="Numero" class="formulario__input" required>  
+  
+            <label for="" class="formulario__label"><span style="color: black"><strong>Estante:</strong></span></label>
+                <input type="text" id="estante" class="formulario__input" required />
+  
+                <h3><span style="color: red;">LIBRO</span></h3>
+
+                <label for="" class="formulario__label"><span style="color: black;" ><strong>título:</strong></span></label> 
+                <input type="text" id="nombre" class="formulario__input" required>
+
+                <label for="" class="formulario__label"><span style="color: black;" ><strong>Autor:</strong></span></label> 
+                <input type="text" id="nombre" class="formulario__input" required>
+
+                <label for="" class="formulario__label"><span style="color: black;" ><strong>Estante:</strong></span></label> 
+                <input type="text" id="nombre" class="formulario__input" required>
+
+                <label for="" class="formulario__label"><span style="color: black;" ><strong>Código:</strong></span></label> 
+                <input type="text" id="nombre" class="formulario__input" required>
+  
+            <input type="submit" id="submit" class="formulario__submit" value="Solicitar" />
+    </form>
+  
+</body>
+</html>
